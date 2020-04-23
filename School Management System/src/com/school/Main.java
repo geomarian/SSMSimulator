@@ -145,8 +145,8 @@ public class Main {
 		// will show all Data together
 		while (it.hasNext()) {
 			System.out.println("Show remaining Staff : ");
-			System.out.println(it.next());
-			System.out.println("## " + Hm);
+			System.out.println("## " + it.next());
+			System.out.println();
 			Thread.sleep(3000);
 			System.out.println();
 			System.out.println(" ********** ");

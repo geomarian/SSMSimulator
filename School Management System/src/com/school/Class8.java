@@ -29,7 +29,7 @@ public class Class8 implements Subfor8 {
 		String s1 = "Bilal";
 		System.out.println("My name is: " + s1);
 		System.out.println("I have GK subject");
-
+		System.out.println();
 	}
 
 	public void English() {
@@ -37,7 +37,7 @@ public class Class8 implements Subfor8 {
 		String s2 = "Kamlesh";
 		System.out.println("My name is: " + s2);
 		System.out.println("I have English subject");
-
+		System.out.println();
 	}
 
 	public void PT() {
@@ -45,7 +45,7 @@ public class Class8 implements Subfor8 {
 		String s3 = "Junaid";
 		System.out.println("My name is: " + s3);
 		System.out.println("I have PT subject");
-
+		System.out.println();
 	}
 
 	public void Hindi() {
@@ -53,6 +53,7 @@ public class Class8 implements Subfor8 {
 		String s4 = "Sana";
 		System.out.println("My name is: " + s4);
 		System.out.println("I have Hindi subject");
+		System.out.println();
 	}
 
 	public List<String> Class8() {
@@ -93,7 +94,7 @@ public class Class8 implements Subfor8 {
 
 		// will show all Data together
 		while (it.hasNext()) {
-			System.out.println("Show all data : ");
+			System.out.println();
 			System.out.println(it.next());
 		}
 		return word;
