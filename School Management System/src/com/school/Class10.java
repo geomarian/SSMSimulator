@@ -65,10 +65,11 @@ public class Class10 implements Subfor10 {
 	}
 
 	@Override
-	public void IT() {
+	public void IT() throws InterruptedException {
 		// TODO Auto-generated method stub
 		String s1 = "Shairin";
 		System.out.println("My name is: " + s1);
+		Thread.sleep(1000);
 		System.out.println("I have IT subject");
 		System.out.println();
 		System.out.println();

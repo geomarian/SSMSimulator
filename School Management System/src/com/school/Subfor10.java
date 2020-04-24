@@ -9,7 +9,7 @@ public interface Subfor10 {
 		public void Biology();
 		public void ComputerApplication();
 		public void Android();
-		public void IT();
+		public void IT() throws InterruptedException;
 		
 		//public void results();
 
